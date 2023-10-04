@@ -1,0 +1,72 @@
+.weather{
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30% );
+    color: #fff;
+    background-color: #333;
+    margin: 20px auto 0 auto;  /* 20px from top, auto on right, 0 on bottom, auto on left */
+    /*margin: top right bottom left şeklinde gier. saat yönünde yani*/
+    padding: 0 20px 20px 20px;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between; /*kenarlarda durması için*/
+    align-items: center;
+}
+.bottom{
+    
+    justify-content: space-between; /*kenarlarda durması için*/
+    align-items: center; 
+}
+
+.city{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;    /*satır boşluğu*/
+    margin: 0;  /*bitişik*/
+    letter-spacing: 1px;  /*harfler arası boşluk*/
+
+}
+
+.weather-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+}
+.weather-icon{
+    width: 100px;
+}
+.temperature {
+    font-weight: 600;
+    font-size: 70px;
+    width: auto;
+    letter-spacing: -5px;
+    margin: 10px 0;
+}
+.details{
+    width: 100%;
+    padding-left: 5px;
+
+}
+
+.parameter-row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.parameter-label-details{
+    margin-left: 130px;
+}
+.parameter-label{
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+}
+.parameter-value{
+    text-align: right;
+    font-weight: 600;
+    font-size: 12px;
+}

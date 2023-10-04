@@ -1,0 +1,4 @@
+.container{
+  max-width: 1080px;
+  margin: 20px auto; /*top and bottom 20px, left and right auto. yani container i center lamış olur*/
+}
